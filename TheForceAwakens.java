@@ -24,7 +24,7 @@ import java.nio.charset.StandardCharsets;
 import java.security.SecureRandom;
 import java.util.HexFormat;
 
-public class Main {
+public class TheForceAwakens {
 
     public static void main(String[] args) {
         if (args.length != 3) {
@@ -88,7 +88,7 @@ public class Main {
             secureRandom.setSeed(seed.getBytes(/* StandardCharsets.UTF_8 */));
 
             KeyGenerator keyGen = KeyGenerator.getInstance("AES");
-            keyGen.init(128, secureRandom);
+            keyGen.init(192, secureRandom);
             simKey = keyGen.generateKey();
 
             // System.err.println("VALIDATE, KAES: " + KAES);

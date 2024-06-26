@@ -1,8 +1,0 @@
-{
-    "java.project.referencedLibraries": [
-        //"bcprov-jdk15on-168.jar",
-        //"slf4j-api-1.7.36.jar",
-        //"sqlite-jdbc-3.45.3.0.jar",
-        //"gson-2.11.0.jar"
-    ]
-}

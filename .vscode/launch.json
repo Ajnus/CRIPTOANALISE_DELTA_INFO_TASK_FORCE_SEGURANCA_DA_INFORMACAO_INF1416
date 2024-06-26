@@ -6,13 +6,12 @@
     "configurations": [
         {
             "type": "java",
-            "name": "TheForceAwakens",
+            "name": "Main",
             "request": "launch",
-            "mainClass": "TheForceAwakens",
-            //"projectName": "DIGITAL_VAULT_SEGURANCA_DA_INFORMACAO_INF1416_T4",
+            "mainClass": "Main",
             "args": [
-                "KEYSEED",
-                "Star Wars: Episode",
+                "SKYWALKER2017",
+                "\"Star Wars: Episode\"",
                 "ec11cfc73a811f7b6058612f4a5624ea2bdccb836b1b83f6f465b379703fa610d748ab8743845b454058b8b1da37f03a3760e69b75445a64ff010dfccbf868ebbafcdda3b110837a2f44663f28295cca3b0b0b56d45a3f7b15c9bb4f4a2a78f136896b76a5040a78c5b8c3dae3b49846"
             ]
         },    
